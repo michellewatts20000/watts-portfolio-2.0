@@ -1,8 +1,9 @@
 * {
-
   scroll-behavior: smooth;
+}
 
-
+button:focus {
+  outline-color:rgb(15, 1, 94);
 }
 
 h1 {
