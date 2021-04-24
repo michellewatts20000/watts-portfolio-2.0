@@ -26,11 +26,11 @@ h1 {
 
 .fa-arrow-circle-up {
   font-size: 35px;
-  color: rgb(15, 1, 94);
+  color:#fff;
 }
 
 a {
-  color: rgb(15, 1, 94);
+  color: #fff;
 }
 
 .card-img-top {
@@ -70,6 +70,7 @@ a {
 footer {
   padding-top: 3rem;
   padding-bottom: 3rem;
+  background-image: radial-gradient(at 50% 100%, rgba(123, 22, 255, 0.75), rgb(15, 1, 94));
 }
 
 footer p {
