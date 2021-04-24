@@ -1,4 +1,4 @@
-# Weather Dashboard
+# Michelle Watts' Portfolio
 
 ## Links
 ### Link to deployed app is [here](https://michellewatts20000.github.io/watts-portfolio-2.0/)
@@ -8,12 +8,12 @@
 HTML, CSS, Bootstrap, FontAwesome.
 
 
-## What the app does
+## What?
+Shows all the projects I have worked on over the last 6 months.
 
 
 ## Screenshots
-![screenshot of portfolio]()
-![screenshot of portfolio]()
+![screenshot of portfolio](./assets/img/screenshot.png)
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
