@@ -19,6 +19,20 @@ h1 {
   border-radius: 0px;
 }
 
+.btn-outline-primary {
+  color:white;
+  border-color: white;
+}
+
+.fa-arrow-circle-up {
+  font-size: 35px;
+  color: rgb(15, 1, 94);
+}
+
+a {
+  color: rgb(15, 1, 94);
+}
+
 .card-img-top {
   border-radius: 0px;
 }
