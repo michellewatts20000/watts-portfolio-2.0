@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:400,400i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./assets/css/styles.css">
   <title>Michelle Watts' Portfolio</title>
 </head>
@@ -21,28 +22,31 @@
         <div class="row">
           <div class="col-sm-8 col-md-7 py-4">
             <h4 class="text-white">About</h4>
-            <p class="text-muted">Hello! My name is Michelle Watts. I am an aspiring coder. I have a background in graphic/web design and
+            <p class="text-muted">Hello! My name is Michelle Watts. I am an aspiring coder. I have a background in
+              graphic/web design and
               audio engineering.</p>
           </div>
           <div class="col-sm-4 offset-md-1 py-4">
             <h4 class="text-white">Contact</h4>
             <ul class="list-unstyled">
-              <li><a href="#" class="text-white">GitHub</a></li>
-              <li><a href="#" class="text-white">LinkedIn</a></li>
-              <li><a href="#" class="text-white">Resume</a></li>
-              <li><a href="#" class="text-white">Email me</a></li>
+              <li><a href="https://github.com/michellewatts20000" target="_blank" class="text-white">GitHub</a></li>
+              <li><a href="https://www.linkedin.com/in/michelle-watts-aa872532/" target="_blank"
+                  class="text-white">LinkedIn</a></li>
+              <li><a href="#" target="_blank" class="text-white">Resume</a></li>
+              <li><a href="mailto:watts.e.michelle@gmail.com" target="_blank" class="text-white">Email me</a></li>
             </ul>
           </div>
         </div>
       </div>
     </div>
-    <div class="navbar navbar-dark bg-dark box-shadow">
+    <div class="navbar navbar-light bg-light box-shadow">
       <div class="container d-flex justify-content-between">
         <a href="#" class="navbar-brand d-flex align-items-center">
-         
+
           <strong>Michelle Watts' Portfolio</strong>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
       </div>
@@ -51,15 +55,26 @@
 
   <main role="main">
 
-    <section class="jumbotron text-center">
+    <section class="jumbotron text-left">
       <div class="container">
-        <h1 class="jumbotron-heading">Michelle Watts' Portfolio</h1>
-        <p class="lead text-muted">Hello! My name is Michelle Watts. I am an aspiring coder. I have a background in graphic/web design and
-          audio engineering.</p>
-        <p>
-          <a href="#" class="btn btn-primary my-2">Main call to action</a>
-          <a href="#" class="btn btn-secondary my-2">Secondary action</a>
-        </p>
+        <div class="row">
+          <div class="col-lg-8">
+            <h1 class="jumbotron-heading">Michelle Watts' Portfolio</h1>
+            <p class="lead text-white">Hello! My name is Michelle Watts. I am an aspiring coder. I have a background in
+              graphic/web design and
+              audio engineering.</p>
+            <p>
+              <a href="#" class="btn btn-light my-2 mr-2">Resume</a>
+              <a target="_blank" href="https://www.linkedin.com/in/michelle-watts-aa872532/"
+                class="btn btn-light my-2">LinkedIn</a>
+            </p>
+          </div>
+
+          <div class="col-lg-4">
+            <img src="./assets/img/profile-pic.jpg" alt="pic of Michelle" class="profile img-thumbnail">
+          </div>
+        </div>
+
       </div>
     </section>
 
@@ -69,9 +84,79 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img class="card-img-top" src="./assets/img/pantry.jpg"
+                alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">What's in my pantry is an easy to use, all-in-one recipe search app that will display recipes based on a list of food items that are currently in your pantry.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a target="_blank" href="https://michellewatts20000.github.io/whats-in-my-pantry/" class="btn btn-sm btn-outline-secondary">View</a>
+                      <a target="_blank" type="button" href="https://github.com/michellewatts20000/whats-in-my-pantry" target="_blank" class="btn btn-sm btn-outline-secondary">Repo</a>
+                  </div>
+                  <small class="text-muted">JS, HTML, CSS</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Live</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Repo</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Live</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Repo</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Live</button>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Repo</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 box-shadow">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
+              <div class="card-body">
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -84,24 +169,11 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -115,9 +187,11 @@
 
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -130,9 +204,11 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -145,55 +221,11 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
+              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail"
+                alt="Card image cap">
               <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                  </div>
-                  <small class="text-muted">9 mins</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="card mb-4 box-shadow">
-              <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&bg=55595c&fg=eceeef&text=Thumbnail" alt="Card image cap">
-              <div class="card-body">
-                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -219,127 +251,7 @@
       <p><a href="../../">LinkedIn</a> || <a href="../../getting-started/">GitHub</a> || <a href="../../">Resume</a></p>
     </div>
   </footer>
-<!-- 
-  <div class="container-fluid ">
-   
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#!">Michelle Watts' Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link" href="#!">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#!">Disabled</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
 
-
-    <div class="row">
-
-      <div class="col-lg-3 col-md-3 bg-dark">
-        <div class="card bg-dark text-white">
-          <img class="card-img-top" src="./assets/img/profile-pic.jpg" alt="Card image cap">
-          <div class="card-body">
-            <h4 class="card-title">Bio</h4>
-            <p class="card-text">
-              Hello! My name is Michelle Watts. I am an aspiring coder. I have a background in graphic/web design and
-              audio engineering.
-            </p>
-            <h4 class="card-title">Contact</h4>
-            <a href="mailto:watts.e.michelle@gmail.com" class="btn btn-info m-1">Email</a>
-            <a href="https://github.com/michellewatts20000" class="btn btn-info m-1">GitHub</a>
-            <a href="https://www.linkedin.com/in/michelle-watts-aa872532/" class="btn btn-info m-1">LinkedIn</a>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="col-lg-9 col-md-9">
-        <div class="card-group">
-          <div class="card m-4">
-            <img class="card-img-top" src="./assets/img/pantry.jpg" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">What's in my pantry?</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title
-                and make up the bulk of the card's content.
-              </p>
-              <a href="https://michellewatts20000.github.io/whats-in-my-pantry/" class="btn btn-primary">See the app</a>
-            </div>
-          </div>
-
-          <div class="card m-4">
-            <img class="card-img-top" src="./assets/img/weather-2.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Weather Dashboard</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title
-                and make up the bulk of the card's content.
-              </p>
-              <a href="https://michellewatts20000.github.io/weather-dashboard/" class="btn btn-primary">See the app</a>
-            </div>
-          </div>
-
-
-        </div>
-      </div>
-    </div>
-
-    <div class="row justify-content-end">
-      <div class="col-lg-9 col-md-9">
-        <div class="card-group">
-          <div class="card m-1">
-            <img class="card-img-top" src="./assets/img/code.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Code quiz</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title
-                and make up the bulk of the card's content.
-              </p>
-              <a href="#!" class="btn btn-primary">See the app</a>
-            </div>
-          </div>
-          <div class="card m-1">
-            <img class="card-img-top" src="./assets/img/code.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Code quiz</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title
-                and make up the bulk of the card's content.
-              </p>
-              <a href="#!" class="btn btn-primary">See the app</a>
-            </div>
-          </div>
-          <div class="card m-1">
-            <img class="card-img-top" src="./assets/img/code.png" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Code quiz</h4>
-              <p class="card-text">
-                Some quick example text to build on the card title
-                and make up the bulk of the card's content.
-              </p>
-              <a href="#!" class="btn btn-primary">See the app</a>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </div>
-
-
-
-    <div class="row bg-dark">
-      <h1 class="display-5 m-5 text-white">footer</h1>
-    </div>
-  </div> -->
 
 
 </body>
@@ -354,9 +266,12 @@
 
 
 
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
 
 
