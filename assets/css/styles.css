@@ -3,17 +3,10 @@
 }
 
 
-/* body {
-  font-family: 'Roboto', sans-serif;
-} */
 
 button:focus {
   outline-color:rgb(15, 1, 94);
 }
-
-/* p {
-  font-family: 'Roboto', sans-serif;
-} */
 
 h1 {
   font-family: 'Alfa Slab One', cursive;
