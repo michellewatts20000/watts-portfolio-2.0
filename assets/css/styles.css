@@ -2,6 +2,9 @@
   scroll-behavior: smooth;
 }
 
+footer .h2 {
+  color:white;
+}
 
 
 button:focus {
