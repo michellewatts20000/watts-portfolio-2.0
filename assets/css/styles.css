@@ -6,6 +6,19 @@ footer .h2 {
   color:white;
 }
 
+.line {
+  text-decoration: underline;
+}
+
+.fa-chevron-up {
+  font-size: 30px;
+}
+
+.line:hover {
+  color:lightgrey;
+  text-decoration: underline;
+}
+
 
 button:focus {
   outline-color:rgb(15, 1, 94);
