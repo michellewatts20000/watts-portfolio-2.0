@@ -29,6 +29,19 @@ h1 {
   letter-spacing: 2px;
 }
 
+h2 {
+   font-family: 'Alfa Slab One', cursive;
+  letter-spacing: 2px;
+ color:  rgb(15, 1, 94);
+ 
+}
+
+
+hr {
+   color:  rgb(15, 1, 94);
+   height: 5px;
+}
+
 h5 {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
